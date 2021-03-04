@@ -1,0 +1,92 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	background-color: #F0F8FF;
+	background-image: url("puppy.png");
+	background-size: 150px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+			text-align: center;
+			font-size: 60px;
+		}
+		h3 {
+			color: #00008B;
+			font-size: 30px;
+			text-align: center;
+		}
+		p{
+			
+		}
+		ol > li {
+			list-style: none;
+		}
+		ol a:link, ol a:visited {
+			text-decoration: none;
+			background: #00008B;
+			border: 3px;
+			border-style: solid;
+			border-color: #00BFFF;
+			display: block;
+			width: 200px;
+			text-align: center;
+			margin-bottom: 3px;
+			color: white;
+			border-radius: 30px;
+		}
+		ol a:hover, ol a:active {
+			background-color: #00BFFF;
+			color: black;
+		}
+		section > p {
+			text-align: center;
+			padding: 10px;
+			border-radius: 5px;
+			overflow: auto;
+		}
+		div > section {
+			width: 40%;
+		}
+		div > section:nth-child(odd){
+			float: left;
+			margin-left: 40px;
+		}
+		div > section:nth-child(even){
+			float: right;
+			margin-right: 40px;
+		}
+		div > h1 {
+			text-align: center;
+		}
+		#myDiv{
+			
+			width: 300px;
+			height: 80px;
+			padding: 8px;
+		}
+		div > a {
+			color: black;
+			position: relative;
+			bottom: 25px;
+		}
+		#sec{
+			margin-top: 10px;
+			font-weight: bold;
+			
+			width: 300px;
+			padding: 8px;
+			
+			
+		}
+		#para > section{
+			background: rgb(51, 204, 255, 0.7);
+			margin-top: 13px; 
+			border-radius: 5px;
+		}
+		#para > section:nth-child(odd){
+			margin-right: : 10px;
+		}
+		#para > section:nth-child(even){
+			margin-left: 10px;
+		}
